@@ -1,0 +1,12 @@
+// prettier-ignore
+@import 
+// theme
+'./sass/utilities/mixins',
+'./sass/utilities/variables',
+'./sass/themes/overrides',
+'./sass/themes/app',
+// main page components
+'./sass/pages/main',
+'./sass/components/header',
+'./sass/components/searchbar',
+'./sass/components/resultscontainer';

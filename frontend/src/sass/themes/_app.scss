@@ -1,0 +1,25 @@
+#root {
+  height: 100%;
+}
+
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  height: 100%;
+}
+
+.app {
+  height: 100%;
+  font-family: $mainFont !important;
+
+  .hide {
+    display: none;
+  }
+
+  .highlight {
+    background-color: red;
+  }
+}

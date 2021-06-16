@@ -1,0 +1,54 @@
+.results-container {
+  display: flex;
+  width: 50vw;
+  margin: 0 auto;
+  border-radius: 4px;
+
+  ul {
+    flex: 1;
+    padding-left: 0;
+
+    li {
+      display: flex;
+      background-color: $mainWhite;
+      margin: 10px 10px;
+      border-radius: 3px;
+      padding: 0 10px;
+      box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.14);
+
+      &:hover {
+        background-color: #e8e8e8;
+      }
+
+      .edit-delete {
+        align-items: center;
+        display: flex;
+        flex: 1;
+        justify-content: space-between;
+      }
+
+      .edit {
+        display: flex;
+        padding: 5px 0;
+        flex: 1;
+        justify-content: space-between;
+
+        .editing-field {
+          flex: 1;
+          margin-right: 20px;
+        }
+      }
+    }
+
+    .notice-text {
+      padding-top: 10px;
+      color: rgba(0, 0, 0, 0.75);
+    }
+  }
+
+  .no-results {
+    margin-top: 5em;
+    flex: 1;
+    text-align: center;
+  }
+}

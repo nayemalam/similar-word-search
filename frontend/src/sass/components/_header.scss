@@ -1,0 +1,44 @@
+.wrapper {
+  flex: 1;
+  text-align: center;
+  margin-top: -21.5em;
+
+  .logo {
+    font-size: 10em;
+    color: $mainWhite;
+  }
+
+  .title {
+    margin-top: -1em;
+    font-size: 5em;
+    color: $mainWhite;
+    font-family: $titleFont;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+  }
+
+  .stroked {
+    -webkit-text-fill-color: $mainWhite;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: $mainBlack;
+  }
+}
+
+@include mobile-down {
+  .wrapper {
+    margin-top: -10em;
+    .logo {
+      font-size: 5em;
+    }
+
+    .title {
+      font-size: 2em;
+    }
+  }
+}
+
+@include mobile-down-small {
+  .wrapper {
+    margin-top: -11em;
+  }
+}
